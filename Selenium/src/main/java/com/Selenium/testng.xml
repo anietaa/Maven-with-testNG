@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Testing suite">
+
+
+<test name= "Different testng features">
+
+
+      <classes>
+          
+          <class name = "com.selenium.App.java" />
+          <class name = "com.selenium.Example2.java" />
+          <class name = "com.selenium.Example9.java" />
+          <class name = "com.selenium.ExceptionTimeOutTest.java" />
+          <class name = "com.selenium.GoogleTest.java" />
+          <class name = "com.selenium.GoogleTitleTest.java" />
+          <class name = "com.selenium.TestNgFeatures.java" />
+         
+         
+         
+         
+         
+         
+      </classes>
+
+
+
+
+
+
+
+
+
+      </test>
+
+
+
+ </suite>

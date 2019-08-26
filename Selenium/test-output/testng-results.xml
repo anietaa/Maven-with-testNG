@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13768" started-at="2019-08-26T07:52:59Z" finished-at="2019-08-26T07:53:13Z">
+  <suite name="Default suite" duration-ms="19328" started-at="2019-08-26T11:00:21Z" finished-at="2019-08-26T11:00:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13768" started-at="2019-08-26T07:52:59Z" finished-at="2019-08-26T07:53:13Z">
+    <test name="Default test" duration-ms="19328" started-at="2019-08-26T11:00:21Z" finished-at="2019-08-26T11:00:40Z">
       <class name="com.Selenium.GoogleTitleTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Selenium.GoogleTitleTest@ea4a92b]" name="setUp" is-config="true" duration-ms="6203" started-at="2019-08-26T13:22:59Z" finished-at="2019-08-26T13:23:05Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Selenium.GoogleTitleTest@ea4a92b]" name="setUp" is-config="true" duration-ms="12725" started-at="2019-08-26T16:30:21Z" finished-at="2019-08-26T16:30:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="googleLogoTest()[pri:0, instance:com.Selenium.GoogleTitleTest@ea4a92b]" name="googleLogoTest" duration-ms="58" started-at="2019-08-26T13:23:05Z" finished-at="2019-08-26T13:23:05Z">
+        <test-method status="PASS" signature="googleLogoTest()[pri:0, instance:com.Selenium.GoogleTitleTest@ea4a92b]" name="googleLogoTest" duration-ms="69" started-at="2019-08-26T16:30:34Z" finished-at="2019-08-26T16:30:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Selenium.GoogleTitleTest@ea4a92b]" name="tearDown" is-config="true" duration-ms="613" started-at="2019-08-26T13:23:05Z" finished-at="2019-08-26T13:23:06Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Selenium.GoogleTitleTest@ea4a92b]" name="tearDown" is-config="true" duration-ms="616" started-at="2019-08-26T16:30:34Z" finished-at="2019-08-26T16:30:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Selenium.GoogleTitleTest@ea4a92b]" name="setUp" is-config="true" duration-ms="6162" started-at="2019-08-26T13:23:06Z" finished-at="2019-08-26T13:23:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Selenium.GoogleTitleTest@ea4a92b]" name="setUp" is-config="true" duration-ms="5233" started-at="2019-08-26T16:30:34Z" finished-at="2019-08-26T16:30:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="googleTitleTest()[pri:0, instance:com.Selenium.GoogleTitleTest@ea4a92b]" name="googleTitleTest" duration-ms="23" started-at="2019-08-26T13:23:12Z" finished-at="2019-08-26T13:23:12Z">
+        <test-method status="FAIL" signature="googleTitleTest()[pri:0, instance:com.Selenium.GoogleTitleTest@ea4a92b]" name="googleTitleTest" duration-ms="21" started-at="2019-08-26T16:30:40Z" finished-at="2019-08-26T16:30:40Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[title is not matched expected [Google1] but found [Google]]]>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Selenium.GoogleTitleTest@ea4a92b]" name="tearDown" is-config="true" duration-ms="683" started-at="2019-08-26T13:23:12Z" finished-at="2019-08-26T13:23:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Selenium.GoogleTitleTest@ea4a92b]" name="tearDown" is-config="true" duration-ms="634" started-at="2019-08-26T16:30:40Z" finished-at="2019-08-26T16:30:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
