@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61" started-at="2019-08-26T11:30:17Z" finished-at="2019-08-26T11:30:18Z">
+  <suite name="Default suite" duration-ms="31" started-at="2019-08-26T14:20:47Z" finished-at="2019-08-26T14:20:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="61" started-at="2019-08-26T11:30:17Z" finished-at="2019-08-26T11:30:18Z">
+    <test name="Default test" duration-ms="31" started-at="2019-08-26T14:20:47Z" finished-at="2019-08-26T14:20:47Z">
       <class name="com.Selenium.TestNgFeatures">
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Selenium.TestNgFeatures@6e3c1e69]" name="loginTest" duration-ms="8" started-at="2019-08-26T17:00:17Z" finished-at="2019-08-26T17:00:17Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Selenium.TestNgFeatures@6e3c1e69]" name="loginTest" duration-ms="12" started-at="2019-08-26T19:50:47Z" finished-at="2019-08-26T19:50:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="homePgaeTest()[pri:0, instance:com.Selenium.TestNgFeatures@6e3c1e69]" name="homePgaeTest" duration-ms="0" started-at="2019-08-26T17:00:18Z" depends-on-methods="com.Selenium.TestNgFeatures.loginTest" finished-at="2019-08-26T17:00:18Z">
+        <test-method status="PASS" signature="homePgaeTest()[pri:0, instance:com.Selenium.TestNgFeatures@6e3c1e69]" name="homePgaeTest" duration-ms="1" started-at="2019-08-26T19:50:47Z" depends-on-methods="com.Selenium.TestNgFeatures.loginTest" finished-at="2019-08-26T19:50:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePgaeTest -->
-        <test-method status="PASS" signature="regPageTest()[pri:0, instance:com.Selenium.TestNgFeatures@6e3c1e69]" name="regPageTest" duration-ms="0" started-at="2019-08-26T17:00:18Z" depends-on-methods="com.Selenium.TestNgFeatures.loginTest" finished-at="2019-08-26T17:00:18Z">
+        <test-method status="PASS" signature="regPageTest()[pri:0, instance:com.Selenium.TestNgFeatures@6e3c1e69]" name="regPageTest" duration-ms="0" started-at="2019-08-26T19:50:47Z" depends-on-methods="com.Selenium.TestNgFeatures.loginTest" finished-at="2019-08-26T19:50:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regPageTest -->
-        <test-method status="PASS" signature="searchPageTest()[pri:0, instance:com.Selenium.TestNgFeatures@6e3c1e69]" name="searchPageTest" duration-ms="0" started-at="2019-08-26T17:00:18Z" depends-on-methods="com.Selenium.TestNgFeatures.loginTest" finished-at="2019-08-26T17:00:18Z">
+        <test-method status="PASS" signature="searchPageTest()[pri:0, instance:com.Selenium.TestNgFeatures@6e3c1e69]" name="searchPageTest" duration-ms="0" started-at="2019-08-26T19:50:47Z" depends-on-methods="com.Selenium.TestNgFeatures.loginTest" finished-at="2019-08-26T19:50:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchPageTest -->
