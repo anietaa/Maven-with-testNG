@@ -11,7 +11,7 @@ public class Example2 {
 	
 	
 	
-	System.setProperty("webdriver.chrome.driver", "C:\\CompleteEclipse\\chromedriver.exe");
+	System.setProperty("www.chromedriver.com", "C:\\CompleteEclipse\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
 	driver.get("https://www.oyorooms.com/");
 	driver.findElement(By.xpath("//*[@id='autoComplete__home']")).sendKeys("Block");;
