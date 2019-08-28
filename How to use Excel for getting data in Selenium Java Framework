@@ -1,0 +1,88 @@
+package utils;
+
+
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.Test;
+
+public class ExcelUtils {
+	 static String projectPath;
+	 static XSSFWorkbook workbook;
+	 static XSSFSheet sheet;
+	
+	
+	
+	public static void main(String[] args){
+		getRowCount();
+		getCellDataString();
+		getCellDataNumber();
+		
+	}
+	
+	
+	
+	
+	@Test
+	public static void  getRowCount(){
+		
+		
+		XSSFWorkbook workbook;
+		try {
+			
+		    projectPath = System.getProperty("user.dir");
+			workbook = new XSSFWorkbook(projectPath+"\\excel\\data.xlsx");
+			XSSFSheet sheet = workbook.getSheet("Sheet1");
+			int rowCount=sheet.getPhysicalNumberOfRows();
+			System.out.println("No. of rows :"+rowCount);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			System.out.println(e.getCause());
+			System.out.println(e.getMessage());
+		}
+		
+		
+	}
+	
+	@Test
+	public static void getCellDataString(){
+		
+		try {
+		    projectPath = System.getProperty("user.dir");
+			workbook = new XSSFWorkbook(projectPath+"\\excel\\data.xlsx");
+			XSSFSheet sheet = workbook.getSheet("Sheet1");
+			String cellData=sheet.getRow(0).getCell(0).getStringCellValue();
+			System.out.println(cellData);
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println(e.getCause());
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+		}
+	}
+		@Test
+		public static void getCellDataNumber(){
+			
+			try {
+			    projectPath = System.getProperty("user.dir");
+				workbook = new XSSFWorkbook(projectPath+"\\excel\\data.xlsx");
+				XSSFSheet sheet = workbook.getSheet("Sheet1");
+				double cellData=sheet.getRow(1).getCell(1).getNumericCellValue();
+				System.out.println(cellData);
+				
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				System.out.println(e.getCause());
+				System.out.println(e.getMessage());
+				e.printStackTrace();
+			}
+		
+	}
+
+	
+	
+	
+}
